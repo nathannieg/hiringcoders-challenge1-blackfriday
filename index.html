@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-------- PAGE INFO -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hiring Coders Challenge #1</title>
+
+    <!-------- LINKS CSS TO HTML STRUCTURE -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-------- TITLES AND SUBTITLES - INTER -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-------- PARAGRAPH TEXT - LEXEND DECA -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-------- HEADER -->
+    <header id="header">
+      <nav class="container">
+        <a class="logo" href="#">electronic<span>store</span>.</a>
+      </nav>
+    </header>
+
+    <!-------- MAIN -->
+    <main>
+      <!-------- MAIN > SECTION > HOME -->
+      <section class="section" id="home">
+        <div class="container grid">
+          <div class="text-plus-form-container">
+            <div class="text">
+              <h1>BLACK FRIDAY SALE</h1>
+              <h2>Up to 70% off on selected products</h2>
+              <p>
+                Get the specials sent to you now! Join our community and be
+                among the first to get limited discounts.
+              </p>
+            </div>
+            <div class="card-container">
+              <div id="content">
+                <form id="form">
+                  <p>Your name</p>
+                  <input type="text" id="name" />
+                  <p>Your best e-mail</p>
+                  <input type="text" id="email" />
+                  <input type="submit" value="Subscribe" id="button" />
+                </form>
+              </div>
+            </div>
+            <!-- <div class="form">
+              <p class="your-email">Your best e-mail</p>
+              <input
+                name="email"
+                type="email"
+                id="email"
+                required=""
+                class="email-input"
+              />
+              <input type="button" id="button" value="Subscribe" />
+               <button onclick="#"" type="button" class="button">
+                Subscribe
+              </button>
+            </div> -->
+          </div>
+          <div class="image-container">
+            <img
+              src="assets/images/banner-desktop.png"
+              alt="woman smiling at cell phone camera"
+            />
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <!-------- MAIN > SECTION > PRODUCTS -->
+      <section class="section" id="products">
+        <div class="container grid">
+          <!-- section title -->
+          <div class="text">
+            <h2>Take a look at our best deals</h2>
+          </div>
+          <!-- section images -->
+          <div class="products-container">
+            <div class="product">
+              <img
+                src="/assets/images/cell-phones.jpg"
+                alt="woman using cell phone"
+              />
+            </div>
+            <div class="product">
+              <img src="assets/images/tablets.jpg" alt="tablet" />
+            </div>
+            <div class="product">
+              <img
+                src="assets/images/headphones.jpg"
+                alt="man wearing headphones"
+              />
+            </div>
+            <div class="product">
+              <img src="assets/images/televisions.jpg" alt="television" />
+            </div>
+          </div>
+          <!-- section text - product categories -->
+          <div class="text-products">
+            <p>Cell phones</p>
+            <p>Tablets</p>
+            <p>Headphones</p>
+            <p>Televisions</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-------- FOOTER -->
+    <footer class="section" id="footer">
+      <div class="container grid">
+        <div class="address">
+          5th Avenue
+          <br />
+          New York
+          <br />
+          +1 800 555 555
+          <br />
+          contact@electronicstore.com
+        </div>
+
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.gama.academy/" target="_blank">Gama Academy</a>.
+          Coded by
+          <a href="https://github.com/nathannieg" target="_blank"
+            >Nathannie Gomes</a
+          >.
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

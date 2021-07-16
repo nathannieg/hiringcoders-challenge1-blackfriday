@@ -1,0 +1,253 @@
+/* ------------- RESET --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  /* makes images adapt to containers*/
+  width: 100%;
+  height: auto;
+}
+
+a {
+  /* removes all stylization from links*/
+  text-decoration: none;
+}
+
+/* ------------- VARIABLES --- */
+
+:root {
+  /* HEX color mode */
+  --primary-color: #d5d830;
+  --primary-text: #434343;
+  --background: #ffffff;
+  --light-gray: #d6d6d6;
+}
+
+/* ------------- LAYOUT--- */
+
+/* ----- HEADER--- */
+
+#header {
+  border-bottom: 0.0625rem solid var(--light-gray);
+}
+
+nav {
+  height: 4.5rem;
+  /* Sends elements to the side */
+  display: flex;
+  /* Center elements based on an imaginary horizontal line*/
+  align-items: center;
+}
+
+.logo {
+  font: 700 1.5rem 'Inter', sans-serif;
+  color: var(--primary-text);
+}
+
+.logo span {
+  color: var(--primary-color);
+}
+
+/* ----- WHOLE PAGE EXCEPT FOR HEADER--- */
+
+.section {
+  /* Everything inside class="section" will have 3rem space up top & bottom */
+  padding: 3rem 0;
+}
+
+.container {
+  /* defines the spaces on the side for the whole page so the content is not glued to the edges of the browser*/
+  margin-left: 5rem;
+  margin-right: 5rem;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10rem;
+}
+
+/* ------------- BASE--- */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Takes care of body structure plus paragraph texts */
+body {
+  background: var(--background);
+  color: var(--primary-text);
+  font: 400 0.875rem 'Lexend Deca', sans-serif;
+  /* deixa a fonte um pouco mais leve */
+  -webkit-font-smoothing: antialiased;
+}
+
+h1 {
+  /* 2.25 rem = 36px */
+  font: 700 2.25rem 'Inter', sans-serif;
+  -webkit-font-smoothing: auto;
+}
+
+h2 {
+  /* 1.875 rem = 30px */
+  font: 600 1.875rem 'Inter', sans-serif;
+  -webkit-font-smoothing: auto;
+}
+
+/* ------------- HOME --- */
+
+.text {
+  padding-top: 1rem;
+  padding-bottom: 3rem;
+  padding-right: 2rem;
+  line-height: 2rem;
+}
+
+.text h1 {
+  padding-bottom: 1rem;
+}
+
+.text h2 {
+  padding-bottom: 1rem;
+  font-style: inherit;
+}
+
+/* Figure out how to center button */
+#button {
+  width: 30%;
+  border-radius: 1rem;
+  border: none;
+  background-color: var(--primary-color);
+  color: var(--background);
+  font-weight: 700;
+  cursor: pointer;
+  text-align: center;
+}
+
+#button:hover {
+  background-color: var(--primary-text);
+  color: var(--background);
+  font-weight: 700;
+}
+
+.card-container {
+  width: 70%;
+}
+
+form {
+  display: grid;
+}
+
+input {
+  width: 100%;
+  height: 1.875rem;
+  margin-bottom: 0.625rem;
+  text-align: left;
+}
+
+.text-plus-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
+
+#home .image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  padding-right: 5rem;
+}
+
+#home img {
+  max-width: 90%;
+}
+
+#home .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.divider {
+  height: 0.0625rem;
+  background: var(--light-gray);
+}
+
+/* ------------- PRODUCTS --- */
+
+#products .container {
+  display: block;
+}
+
+.products-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#products .product {
+  display: inline-block;
+  position: relative;
+  width: 12rem;
+  height: 12rem;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+#products .product img {
+  width: auto;
+  height: 100%;
+  margin-left: -4rem;
+}
+
+.text-products {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 5rem;
+  margin-top: 1rem;
+}
+
+/* ------------- FOOTER --- */
+
+#footer {
+  background-color: var(--primary-color);
+  display: flex;
+  flex-direction: column;
+}
+
+#footer .container {
+  display: block;
+}
+
+.attribution {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+  font-size: 0.625rem;
+  font-family: 'Lexend Deca', sans-serif;
+  color: var(--primary-text);
+}
+
+.address {
+  padding-bottom: 3rem;
+  margin-left: 0rem;
+  text-align: right;
+  font-size: 0.75rem;
+}
