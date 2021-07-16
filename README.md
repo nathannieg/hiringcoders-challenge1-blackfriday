@@ -1,6 +1,7 @@
 # Hiring Coders - Challenge #1 - Create an e-commerce landing page
 
 This is a solution to a challenge proposed by Hiring Coders, a development program offered by Gama Academy and VTEX.
+
 [Hiring Coders](https://www.hiringcoders.com.br/)
 [Gama Academy](https://www.gama.academy/).
 [VTEX](https://vtex.com/br-pt/).
@@ -23,7 +24,7 @@ This challenge is part of a free of cost, 100% online education program. 10k stu
 
 ### The challenge
 
-The challenge is to use HTML, CSS and JavaScript tocreate a simple black friday themed landing page that will take the user's informations and store into the local storage.
+The challenge is to use HTML, CSS and JavaScript to create a simple black friday themed landing page that will take the user's informations and store them into localstorage.
 
 As recommended, I'll be using Netlify to host the project.
 
@@ -31,13 +32,12 @@ Seeing as it's a beginners project, it's not required that the landing page is r
 
 ### Links
 
-- Solution URL: [Solution on my Github profile]()
-- Figma template: [My template]()
+- Solution URL: [Solution on my Github profile](https://github.com/nathannieg/hiringcoders-challenge1-blackfriday)
 - Live Site URL: [Live landing page]()
 
 ## My process
 
-- Step 1 - The template
+- Step 1 - Create the template on Figma
 
 - Step 2 - HTML structure
 
@@ -61,7 +61,7 @@ This was my first project, so everything I did was a relevant learning experienc
 
 ### Continued development
 
-The lage is not responsive to different screens and has very little interactive components, so I plan on improving it over time, as part of my learning proccess.
+The page is not responsive to different screens and has very little interactive components, so I plan on improving it over time, as part of my learning proccess.
 
 ## Author
 
@@ -73,6 +73,6 @@ The lage is not responsive to different screens and has very little interactive 
 
 I'd like to send my thanks to:
 
-- Gama Academy and VTEX for this opportunity;
+- Gama Academy and VTEX for the opportunity to learn so much from program;
 - The community created around Hiring Coders, who share a lot of useful information and tips;
 - Gustavo Guanabara, owner of the Curso em Vídeo chanel, whose work helped hundreds of thousands of people to learn about programming and technology for free. [Curso em Video](https://www.youtube.com/user/cursosemvideo).
