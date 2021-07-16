@@ -73,6 +73,6 @@ The page is not responsive to different screens and has very little interactive 
 
 I'd like to send my thanks to:
 
-- Gama Academy and VTEX for the opportunity to learn so much from program;
+- Gama Academy and VTEX for the opportunity to learn so much from the program;
 - The community created around Hiring Coders, who share a lot of useful information and tips;
 - Gustavo Guanabara, owner of the Curso em Vídeo chanel, whose work helped hundreds of thousands of people to learn about programming and technology for free. [Curso em Video](https://www.youtube.com/user/cursosemvideo).
