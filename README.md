@@ -57,7 +57,7 @@ Seeing as it's a beginners project, it's not required that the landing page is r
 
 ### What I learned
 
-This was my first project, so everything was did was a relevant learning experience.
+This was my first project, so everything I did was a relevant learning experience.
 
 ### Continued development
 
